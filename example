@@ -19,3 +19,9 @@ func load() {
     };
 
 }
+
+func tick() {
+    at(@a) {
+        kill(@e[type=item,distance=..5,nbt={Item:{}}])
+    };
+}
