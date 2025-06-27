@@ -1,5 +1,5 @@
 ```python
-func <name> {
+func <name>() {
     ...
 }
 
@@ -28,6 +28,11 @@ i.e.
 
 sayf(<text>, <format>); - says the formatted string 
 
-tellrawf(<text>, <format>); - says the formatted string. More options
+tellraw(<json>); - says the 'text' attribute, with some modifiers allowed
+
+on(); - runs the following code on an event
+
+at(); - runs the following code on an object(s)
+
 
 ```

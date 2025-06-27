@@ -1,0 +1,21 @@
+#namespace 'Test'
+#pack_format 80
+
+func load() {
+    at(@a[type=player]) {
+        tellraw(
+            {
+                "text":"Finished Loading!"
+            }
+        );
+
+        at(@s) {
+            tellraw(
+                {
+                    "text":"Boo"
+                }
+            );
+        };
+    };
+
+}
